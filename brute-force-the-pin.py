@@ -16,7 +16,7 @@ from re import compile
 # to parallelize across IP-addresses, you can
 # increase your agent count and set ids.
 
-AGENT_COUNT = 2
+AGENT_COUNT = 1
 AGENT_ID = 0  # start counting from 0
 SEED = 1415926535  # must be the same across all agents
 LOGFILE = "guess-the-pin.log"
